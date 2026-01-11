@@ -1,7 +1,7 @@
 import { Button, type ButtonProps } from '@radix-ui/themes'
 import type { Topic } from '../hooks/useTopics'
 
-export type Props = {
+type Props = {
     topics: Topic[],
     onTopicChange: (t: Topic) => void
     getVaritant: (t: Topic) => ButtonProps["variant"]
